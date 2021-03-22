@@ -10,8 +10,7 @@ HELP_TEXT = """__**I Can Play Music In @SwiftiesWorld Voice Chat**__
 
 __**NOTE: Do Not Assign These Commands To Bot Via BotFather.**__"""
 
-START_TEXT = "__**I am Swifties Music Bot, a bot that lets you play music in @Swiftiesworld voice chat.
-This bot is created by @TayLife.**__"
+START_TEXT = "__**I am Swifties Music Bot, a bot that lets you play music in @Swiftiesworld voice chat.This bot is created by @TayLife.**__"
 
 REPO_TEXT = "[Group](t.me/swiftiesworld)" \
             + " | [Group](t.me/taylorswift13fanpage)"
