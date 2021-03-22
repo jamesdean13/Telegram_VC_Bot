@@ -34,7 +34,7 @@ Use the buttons below to know more about me.""",
                 ]
             ]
         )
-    )"
+    )
 
 REPO_TEXT = "[Group](t.me/swiftiesworld)" \
             + " | [Group](t.me/taylorswift13fanpage)"
