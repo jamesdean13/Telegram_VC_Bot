@@ -56,17 +56,17 @@ vc = GroupCall(app, input_filename="input.raw", play_on_repeat=True)
 arq = ARQ(ARQ_API)
 
 
-@app.on_message(filters.command("start") & filters.chat(sudo_chat_id))
+@app.on_message(filters.command("start") & filters.chat(sudo_chat_id) & filters.private)
 async def start(_, message):
     await send(START_TEXT)
 
 
-@app.on_message(filters.command("help") & filters.chat(sudo_chat_id))
+@app.on_message(filters.command("help") & filters.chat(sudo_chat_id) & filters.private)
 async def help(_, message):
     await send(HELP_TEXT)
 
 
-@app.on_message(filters.command("repo") & filters.chat(sudo_chat_id))
+@app.on_message(filters.command("repo") & filters.chat(sudo_chat_id) & filters.private)
 async def repo(_, message):
     await send(REPO_TEXT)
 
