@@ -10,7 +10,7 @@ HELP_TEXT = """__**I Can Play Music In The Voice Chat**__
 
 __**NOTE: Do Not Assign These Commands To Bot Via BotFather.**__"""
 
-START_TEXT = "f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
+START_TEXT = "f"""<b> Hi {message.from_user.first_name}!</b>
 I am Swifties Music Bot, a bot that lets you play music in @Swiftiesworld voice chat.
 This bot is created by @TayLife. 
 Use the buttons below to know more about me.""",
