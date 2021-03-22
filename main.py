@@ -4,7 +4,6 @@ import asyncio
 import time
 import os
 from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pytgcalls import GroupCall
 from Python_ARQ import ARQ
 from misc import HELP_TEXT, START_TEXT, REPO_TEXT
