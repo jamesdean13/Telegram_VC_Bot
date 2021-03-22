@@ -280,7 +280,7 @@ async def ytplay(requested_by, query):
         duration = results[0].duration
         views = results[0].views
         if time_to_seconds(duration) >= 1800:
-            await m.edit("__**Bruh! Only songs within 30 Mins.**__")
+            await m.edit("__**Dude! Only songs within 30 Mins.**__")
             playing = False
             return
     except Exception as e:
@@ -349,7 +349,7 @@ async def send(text):
     return m
 
 
-print("\nBot Starting...\nFor Support Join https://t.me/PatheticProgrammers\n")
+print("\nBot Starting...\nFor Support Join https://t.me/swiftiesworld\n")
 
 
 app.run()
